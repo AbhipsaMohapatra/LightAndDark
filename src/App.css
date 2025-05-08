@@ -1,0 +1,29 @@
+/* :root{
+  --body_background:white;
+  --body_color:black;
+  --red_color:red;
+  --blue_color:blue;
+
+
+}
+[dark-theme="dark"]{
+  --body_background:black;
+  --body_color:white;
+  --red_color:yellow;
+  --blue_color:orange;
+
+
+} */
+
+
+
+body {
+  background-color: var(--body_background);
+  color: var(--body_color);
+  transition: all 0.3s ease;
+}
+.margin{
+  margin: 20px auto;
+  border:2px solid;
+  border-color: var(--body_color);
+}

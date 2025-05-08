@@ -1,0 +1,20 @@
+:root{
+  --body_background:white;
+  --body_color:black;
+  --red_color:red;
+  --blue_color:blue;
+  --button_color:black;
+  --button_bg:pink;
+
+
+}
+[dark-theme="dark"]{
+  --body_background:black;
+  --body_color:white;
+  --red_color:yellow;
+  --blue_color:orange;
+  --button_color:black;
+  --button_bg:linear-gradient(90deg,#ff66c4,#ffde59);
+
+
+}
